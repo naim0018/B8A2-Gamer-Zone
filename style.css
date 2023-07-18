@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+.primary-color{
+    color: #ff42a5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: #0B0223;
+
+font-size: 45px;
+
+font-weight: 700;
+
+}
+.logo a{
+    padding: 35px;
+    text-decoration: none;
+    
+}
+
+
+.menus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menus a{
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.follow-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+    padding: 15px;
+}
