@@ -10,7 +10,7 @@
   color: #534c64;
 
   font-size: 18px;
-
+    
   font-weight: 400;
   line-height: 30px;
 }
@@ -18,7 +18,7 @@
   color: #0b0223;
   text-align: center;
   font-size: 48px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
 }
 .primary-heading-gradient {
@@ -89,7 +89,6 @@
 .goat-text {
   font-size: 95px;
   font-weight: 800;
-  text-transform: uppercase;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -114,10 +113,11 @@
   background-image: url(images/Group\ 14.png);
   background-repeat: no-repeat;
   gap: 100px;
-  margin-bottom: -5px;
+  /* margin-bottom: -5px; */
 }
 .banner-img {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  /* padding-top: 20px; */
 }
 .button {
   margin-top: 40px;
@@ -178,6 +178,109 @@
 }
 /* Second Section End */
 
+/* Third Section Start */
+
+/* .thire-text h2 p{
+    text-align: center;
+} */
+.third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.third > h2 {
+  margin-top: 120px;
+  margin-bottom: 12px;
+}
+.third > p {
+  margin-bottom: 48px;
+}
+.online-games {
+  margin: 30px 0 60px 0;
+  width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+.online-games p{
+    text-align: center;
+}
+
+.box{
+    
+    transition: 1ms;
+}
+.box:hover{
+    transform: scale(1.1);
+    background-image: url(images/play-button\ 1.svg);
+    
+    z-index: 2;
+}
+
+
+/* Third Section End */
+
+/* Fourth Section Start */
+
+.fourth
+{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items:center;
+  gap: 150px;
+margin: 100px 0;
+  
+  
+}
+.no-downloads{
+  width: 400px;
+  margin-left: 300px;
+  align-items: right;
+  border: 1px solid red;
+}
+.no-download-img{
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.right{
+  text-align: right;
+}
+.no-downloads >p{
+  padding-top: 24px;
+}
+.img-position{
+  
+  position:relative;
+  top: 250px;
+  right: 800px;
+  
+}
+
+
+/* Fourth Section End */
+
+/* Fifth Section Start */
+  /* .fifth{
+    grid-row: row-reverse;
+  } */
+
+/* Fifth Section End */
+
+/* Sixth Section Start */
+
+.position{
+  width: ;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+/* Sixth Section End */
+
+
 /* Footer Section Start */
 .footer-section {
   height: 640px;
@@ -190,47 +293,46 @@
 .lw a {
   color: white;
 }
-.about-us{
-    display: flex;
-    gap: 50px;
-    padding: 10px;
-    margin: 50px;
-    
+.about-us {
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+  margin: 50px;
 }
-.about-us a{
- color: #FFF;
-text-align: center;
-font-size: 18px;
-font-weight: 600;
-text-decoration: none;
+.about-us a {
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
 }
 .social-media {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
-.media-img{
-    width: 40px;
-    height: 40px;
+.media-img {
+  width: 40px;
+  height: 40px;
 }
-.policy{
-    display: flex;
-    gap: 50px;
-    padding:10px ;
-    margin-top: 60px;
-    margin-bottom: 20px;
+.policy {
+  display: flex;
+  gap: 50px;
+  padding: 10px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .policy a {
-    text-decoration: none;
-  
+  text-decoration: none;
+
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
 }
-.copyright{
-    padding: 10px;
+.copyright {
+  padding: 10px;
 }
-.copyright a{
+.copyright a {
   color: rgba(255, 255, 255, 0.6);
   text-align: center;
   font-size: 16px;
