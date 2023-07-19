@@ -7,10 +7,12 @@
   color: #ff42a5;
 }
 .primary-p {
-  color: #3c354f;
-  text-align: center;
+  color: #534c64;
+
   font-size: 18px;
-  font-weight: 500;
+
+  font-weight: 400;
+  line-height: 30px;
 }
 .primary-heading-black {
   color: #0b0223;
@@ -28,18 +30,18 @@
   -webkit-text-fill-color: transparent;
 }
 .primary-btn {
-color: #FFF;
-font-size: 20px;
-font-weight: 600;
-text-transform: uppercase; 
-padding: 21px 40px;
-border-radius: 48px;
-background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  border: none;
 }
-.primary-btn a{
-    color: #FFF;
-    text-decoration: none;
+.primary-btn a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Navbar start */
@@ -84,45 +86,96 @@ border: none;
 /* Navbar End */
 
 /* First Section Start */
-.goat-text{
-font-size: 95px;
-font-weight: 800;
-text-transform: uppercase;
-background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.goat-text {
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.goat p{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding-top: 5px;
-    
+.goat p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* padding-top: 5px; */
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
 }
 
-.first{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-image: url(images/Group\ 14.png);
-    background-repeat: no-repeat;
-    gap: 100px;
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url(images/Group\ 14.png);
+  background-repeat: no-repeat;
+  gap: 100px;
+  margin-bottom: -6px;
 }
-.banner-img
-{
-    margin-top: 20px;
+.banner-img {
+  margin-top: 20px;
 }
-.button{
-    margin-top: 40px;
+.button {
+  margin-top: 40px;
 }
-.blue{
-    border-radius: 48px;
-background: #4EC5F7;
+.blue {
+  border-radius: 48px;
+  background: #4ec5f7;
 }
-
 
 /* First Section End */
 
+/* Second Section Start */
+.second-bg{
+    background: linear-gradient(
+        90deg,
+        rgba(255, 66, 165, 0.03) 0%,
+        rgba(255, 66, 165, 0.03) 100%
+      );
+}
+.second {
+    width: 1450px;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
 
+}
+
+.banner-img-second {
+  padding: 40px 0;
+}
+.gamer-text {
+
+  width: 520px;
+  text-align: right;
+}
+.text-right {
+  text-align: right;
+}
+.gamer-text p {
+  padding: 24px 0 35px 0;
+}
+.purpose {
+  color: #534c64;
+  text-align: right;
+
+  font-size: 24px;
+
+  font-weight: 500;
+  line-height: 45px;
+}
+.unleash {
+    color: #534C64;
+
+font-size: 32px;
+
+font-weight: 700;
+line-height: 45px;
+}
+/* Second Section End */
