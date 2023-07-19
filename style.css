@@ -273,12 +273,53 @@ margin: 100px 0;
 /* Sixth Section Start */
 
 .position{
-  width: ;
+  
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
 
 /* Sixth Section End */
+.carrer-left{
+  width: 680px;
+ 
+  margin-left: 240px;
+
+}
+.carrer-p {
+  margin: 30px 0;
+}
+.position p {
+  line-height: 40px;
+}
+.btn{
+  margin-top: 50px;
+  background: white;
+  color: #FF42A5;
+}
+.sixth
+{
+  margin-top: 240px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-image: url(images/Group\ 14.png) ,linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.line-height{
+  line-height: 20px;
+}
+
+.text-color
+{
+  color: white;
+}
 
 
 /* Footer Section Start */
