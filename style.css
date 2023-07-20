@@ -2,10 +2,12 @@
   margin: 0;
   font-family: "Lato", sans-serif;
   font-family: "Work Sans", sans-serif;
+
 }
 body{
   width: 100vw;
   overflow-x: hidden;
+  
 }
 .primary-color {
   color: #ff42a5;
@@ -21,12 +23,12 @@ body{
 .primary-heading-black {
   color: #0b0223;
   text-align: center;
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   text-transform: uppercase;
 }
 .primary-heading-gradient {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
@@ -35,7 +37,7 @@ body{
 }
 .primary-btn {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   text-transform: uppercase;
   padding: 21px 40px;
@@ -259,7 +261,7 @@ margin: 100px 0;
   
 }
 .no-downloads{
-  width: 400px;
+  width: 25rem;
   /* margin-left: 300px; */
   /* align-items: right; */
   
@@ -277,7 +279,7 @@ margin: 100px 0;
 .no-downloads >p{
   padding-top: 24px;
 }
-.img-position{
+.img-position ,.img-position-two{
   
   position:absolute;
   top: 400px;
@@ -455,6 +457,7 @@ margin: 100px 0;
   body {
     overflow-x: hidden;
   }
+ 
 
   .navbar {
     flex-direction: column;
@@ -499,7 +502,12 @@ margin: 100px 0;
 
   .banner-img {
     margin: 20px 0;
+    
   }
+  .banner-img img{
+    width: 30rem;
+  }
+
 
   .second {
     flex-direction: column;
@@ -507,8 +515,8 @@ margin: 100px 0;
     gap: 20px;
   }
 
-  .banner-img-second {
-    padding: 20px 0;
+  .banner-img-second img {
+    width: 30rem;
   }
 
   .gamer-text {
@@ -567,10 +575,29 @@ margin: 100px 0;
     gap: 40px;
     margin: 100px 0;
   }
+  .no-download-img >img{
+    width: 30rem;
+  }
+  .img-position >img ,.img-position-two >img{
+    width: 15rem;
+  }
+
 
   .img-position {
-    top: 300px;
-    right: 0;
+    
+      top: 720px;
+      right: 325px;
+  }
+  .img-position-two{
+    top: 245px;
+    right: 0px;
+  }
+  .no-downloads{
+    margin-top: 100px;
+  
+  }
+  .right{
+    text-align: center;
   }
 
   .fourth h2,
@@ -580,6 +607,8 @@ margin: 100px 0;
 
   .fifth-top {
     margin-top: 200px;
+    flex-direction: column;
+    
   }
 
   .sixth {
@@ -587,10 +616,11 @@ margin: 100px 0;
     align-items: center;
     gap: 40px;
     margin-top: 200px;
+    padding: 20px 0;
   }
 
   .carrer-left {
-    width: 100%;
+    width: 30rem;
     margin-left: 0;
   }
 
@@ -599,8 +629,8 @@ margin: 100px 0;
   }
 
   .position {
-    grid-template-columns: 1fr;
-    gap: 10px;
+    grid-template-columns:repeat(2,1fr);
+    gap: 5px;
   }
 
   .btn {
@@ -623,7 +653,7 @@ margin: 100px 0;
 
   .footer-section {
     height: auto;
-    padding: 40px 20px;
+    padding: 20px 0px;
   }
 
   .about-us {
